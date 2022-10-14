@@ -72,6 +72,6 @@ To run the test on a clean system, install `tempground` and run the script:
 # assuming pip and python are Python 3.10+
 # and lib_test.py is a local file
 
-$ pip install git+https://github.com/rtmigo/tempground_py
+$ pip install tempground
 $ python lib_test.py
 ```
