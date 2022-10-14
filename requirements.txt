@@ -1,0 +1,4 @@
+-e .
+neatest
+chkpkg
+mypy
