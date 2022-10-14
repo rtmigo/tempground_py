@@ -26,7 +26,7 @@ The test can be run by creating a single file like this:
 
 from tempground import *
 
-with TempProject(
+with TempGround(
         files={
             # minimalistic build script to use the library
             "build.gradle.kts": """

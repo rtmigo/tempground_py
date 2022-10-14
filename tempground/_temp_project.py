@@ -34,7 +34,7 @@ class Glob:
                 shutil.copy(p, abs_target)
 
 
-class TempProject:
+class TempGround:
     def __init__(self,
                  files: dict[str, str],
                  copy: Iterable[Glob] | None = None):
