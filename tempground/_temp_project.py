@@ -61,7 +61,7 @@ class TempGround:
             raise Exception("Unavailable")
         return self._temp_dir / "project"
 
-    def __enter__(self) -> TempProject:
+    def __enter__(self) -> TempGround:
         self._temp_dir = Path(tempfile.mkdtemp())
         self._create(self.project_dir)
         return self
@@ -71,7 +71,8 @@ class TempGround:
         _rmtree_skipping_permission_errors(self._temp_dir)
 
     def print_files(self, unindent: bool = True):
-        warnings.warn("Use print(tempground.files_content())", DeprecationWarning)
+        warnings.warn("Use print( tempground.files_content() )",
+                      DeprecationWarning)
         print(self.files_content(unindent=unindent))
 
     def files_content(self, unindent: bool = True) -> str:
