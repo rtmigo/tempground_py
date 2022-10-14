@@ -3,6 +3,6 @@
 
 from ._errors import UnexpectedOutput
 from ._temp_project import TempGround, CompletedRun
-TempProject = TempGround
+
 
 
