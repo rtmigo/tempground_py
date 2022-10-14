@@ -13,6 +13,7 @@ setup(
     author_email="ortemeo@gmail.com",
 
     packages=find_packages(include=['tempground', 'tempground.*']),
+    package_data={'tempground': ['py.typed']},
 
     python_requires='>=3.10',  # 3.10 for `match`
     install_requires=[],
@@ -27,7 +28,7 @@ setup(
 
     classifiers=[
         "Programming Language :: Python :: 3.10",
-        "Environment :: Console",
+        "Programming Language :: Python :: 3.11",
         "Typing :: Typed",
         "Operating System :: POSIX",
         "Operating System :: Microsoft :: Windows"
