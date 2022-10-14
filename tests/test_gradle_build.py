@@ -2,7 +2,7 @@ import os
 import unittest
 from pathlib import Path
 
-from tempground import TempProject
+from tempground import TempGround
 
 
 class TestKotlin(unittest.TestCase):
@@ -14,7 +14,7 @@ class TestKotlin(unittest.TestCase):
                      ("gradlew.bat" if os.name == "nt" else "gradlew")
         assert gradle_exe.exists()
 
-        with TempProject(
+        with TempGround(
                 files={
                     "build.gradle.kts": """
                         plugins {
