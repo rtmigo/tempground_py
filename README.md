@@ -11,7 +11,7 @@ A script that allows you to concisely:
 * run shell commands in the directory
 * check the run results
 
-For example, during unit testing of a library, we can create a temporary project that imports our library. And check that it was imported. 
+For example, during integration testing of a library, we can create a small temporary project that imports our library. And we check that the library was imported. 
 
 
 ## Example: Testing a Kotlin library
