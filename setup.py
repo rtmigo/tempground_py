@@ -14,7 +14,7 @@ setup(
 
     packages=find_packages(include=['tempground', 'tempground.*']),
 
-    python_requires='>=3.10',
+    #python_requires='>=3.10',
     install_requires=[],
 
     long_description=(Path(__file__).parent / 'README.md')
