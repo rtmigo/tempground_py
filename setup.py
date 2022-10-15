@@ -23,7 +23,7 @@ setup(
 
     license="MIT",
 
-    keywords="temp library unit testing integration".split(),
+    keywords="temp temporary project sandbox library unit testing integration".split(),
 
     classifiers=[
         "Programming Language :: Python :: 3.10",
