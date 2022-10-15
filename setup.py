@@ -6,7 +6,7 @@ name = "tempground"
 
 setup(
     name=name,
-    version="0.4.1",
+    version="0.4.2",
 
     author="Artsiom iG",
     author_email="ortemeo@gmail.com",
@@ -23,7 +23,7 @@ setup(
 
     license="MIT",
 
-    keywords="temp library unit testing integration".split(),
+    keywords="temp temporary project sandbox library unit testing integration".split(),
 
     classifiers=[
         "Programming Language :: Python :: 3.10",
