@@ -14,7 +14,7 @@ A script that allows you to concisely:
 For example, during integration testing of a library, we can create a small temporary project that imports our library. And we check that the library was imported. 
 
 
-## Example: Testing a Kotlin library
+### Example: Testing a Kotlin library
 
 Suppose you have created a Kotlin library named `mylib`. You need to test that 
 third-party projects can use `mylib` as a dependency.
@@ -83,3 +83,8 @@ To run the test on a clean system, install `tempground` and run the script:
 $ pip install tempground
 $ python lib_test.py
 ```
+
+## License
+
+Copyright © 2022 [Artsiom iG](https://github.com/rtmigo).
+Released under the [MIT License](LICENSE).
