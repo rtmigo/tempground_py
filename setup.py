@@ -6,7 +6,7 @@ name = "tempground"
 
 setup(
     name=name,
-    version="0.4.1",
+    version="0.4.2",
 
     author="Artsiom iG",
     author_email="ortemeo@gmail.com",

@@ -61,7 +61,7 @@ with TempGround(
     # print report about our mini-project
     print(app.files_content())
     
-    # run our test project
+    # run our mini-project
     result = app.run(["gradle", "run", "-q"])
     
     # print what was on stdout, the exit code, etc 
