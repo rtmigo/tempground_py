@@ -58,8 +58,16 @@ with TempGround(
                 fun main() = println(spanishGreeting())
             """}) as app:
     
-    # running our test project
+    # print report about our mini-project
+    print(app.files_content())
+    
+    # run our test project
     result = app.run(["gradle", "run", "-q"])
+    
+    # print what was on stdout, the exit code, etc 
+    print(result)
+    
+    # check everything was as excepted
     assert result.returncode == 0
     assert result.stdout == "¡Hola!\n"
 
