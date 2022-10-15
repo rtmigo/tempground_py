@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: (c) 2022 Artsiom iG (rtmigo.github.io)
+# SPDX-License-Identifier: MIT
+
 import os
 import unittest
 from pathlib import Path
