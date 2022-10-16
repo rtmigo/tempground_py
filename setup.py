@@ -6,7 +6,7 @@ name = "tempground"
 
 setup(
     name=name,
-    version="0.4.2",
+    version="0.4.3",
 
     author="Artsiom iG",
     author_email="ortemeo@gmail.com",
@@ -14,7 +14,7 @@ setup(
     packages=find_packages(include=['tempground', 'tempground.*']),
     package_data={'tempground': ['py.typed']},
 
-    python_requires='>=3.10',  # 3.10 for `match`
+    python_requires='>=3.10, <4',  # 3.10 for `match`
     install_requires=[],
 
     long_description=(Path(__file__).parent / 'README.md') \
@@ -23,14 +23,15 @@ setup(
 
     license="MIT",
 
-    keywords="temp temporary project sandbox library unit testing integration".split(),
+    keywords="temp temporary project sandbox "
+             "library unit testing integration".split(),
 
     classifiers=[
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Typing :: Typed",
-        "Operating System :: POSIX",
+        "Operating System :: POSIX :: Linux",
+        "Operating System :: MacOS",
         "Operating System :: Microsoft :: Windows"
     ],
 )
-
